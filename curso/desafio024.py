@@ -1,3 +1,2 @@
-cidade = input('Digite o nome da cidade:')
-cidade.split()
-print('Tem "Santo" no primeiro nome da cidade?','santo' in cidade[0])
+cidade = input('Digite o nome da cidade:').strip()
+print('Tem "Santo" no primeiro nome da cidade?',cidade[:5].upper() == 'SANTO')
